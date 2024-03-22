@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.debbug__red {
+  border: 1px solid red;
+}
+
+body {
+  /* AJUSTAR O CALC BUGANDO A LARGURA POR ALGUM MOTIVO */
+  height: calc(100vh + 56px);
+  width: 100vw;
+}
+
+header {
+  height: 50px;
+}
+
+main {
+  flex: 1;
+}
