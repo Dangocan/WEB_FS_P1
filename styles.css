@@ -31,7 +31,7 @@ main {
   width: 100%;
   flex: 1;
   justify-content: center;
-  grid-template-columns: 18.75rem calc(80% - 18.75rem);
+  grid-template-columns: 20rem calc(80% - 20rem);
 }
 
 .main_division__left {
@@ -40,4 +40,13 @@ main {
 
 .main_division__right {
   display: flex;
+}
+
+.division_left__input_area {
+  display: flex;
+  justify-content: center;
+}
+
+.division_left__input_area label {
+  margin-right: 0.5rem;
 }

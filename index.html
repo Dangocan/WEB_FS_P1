@@ -12,10 +12,14 @@
   <body id="root" class="flex_column">
     <header class="debbug__red">header</header>
     <main class="debbug__red">
-      <div class="debbug__blue main_division__left">left</div>
-      <ul id="nobelList" class="debbug__blue main_division__right">
-        right
-      </ul>
+      <div class="debbug__blue main_division__left">
+        <div class="division_left__input_area">
+          <label for="nobelSerchField">Pesquisar</label>
+          <input type="search" name="nobelSerchField" id="nobelSerchTextArea" />
+          <input type="submit" value="&#128269;" />
+        </div>
+      </div>
+      <ul id="nobelList" class="debbug__blue main_division__right"></ul>
     </main>
     <footer class="debbug__red">footer</footer>
     <!-- <script type="module" src="./src/main.js"></script> -->
