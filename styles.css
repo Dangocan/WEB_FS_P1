@@ -40,6 +40,8 @@ main {
 
 .main_division__right {
   display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
 }
 
 .division_left__input_area {
@@ -49,4 +51,19 @@ main {
 
 .division_left__input_area label {
   margin-right: 0.5rem;
+}
+
+.nobel_list__card_item {
+  border: 1px solid pink;
+  margin: 0.5rem;
+  height: min-content;
+}
+
+#error {
+  padding-top: 0.5rem;
+  color: red;
+}
+
+#info {
+  padding-top: 1rem;
 }
